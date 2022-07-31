@@ -58,5 +58,5 @@ for rank in range(len(Test_teams)):
 
     }
 Test_ranking_dict = pandas.DataFrame(Test_ranking)
-Test_ranking_csv  = Test_ranking_dict.to_csv("web-scraping-project/icc-test-ranking-data/Test_ranking_data.csv")
+Test_ranking_csv  = Test_ranking_dict.to_csv("icc-test-ranking-data/Test_ranking_data.csv")
 print(Test_ranking_dict)
